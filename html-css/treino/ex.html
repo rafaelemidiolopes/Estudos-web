@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            height: 100vh;
+            width: 100vw;
+        }
+        header{
+            background-color: gray;
+            padding: 10px;
+            color: white;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            /*flex-wrap: wrap;
+            align-content: flex-start; */
+        }
+        /*p.menu {
+            border: 1px solid black;
+            padding: 3px ;
+            margin: 0px 1px 3px 2px;
+            flex: 0 0 auto;
+            align-self: end;
+            
+        } */
+       header > h1 {
+            border: 1px dotted black;   
+            flex: 0 0 200px;  
+            
+        }
+
+        header > nav {
+            border: 1px dotted black;   
+            display: flex;  
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        header > nav > a {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        header > nav > a:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            transition-duration: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Opção 1</a>
+            <a href="#">Opção 2</a>
+            <a href="#">Opção 3</a>
+            <a href="#">Opção 4</a>
+            <a href="#">Opção 5</a>
+            <a href="#">Opção 6</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Teste</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil sapiente officia laborum aliquam sequi perspiciatis est vitae. Magni officia eaque iusto blanditiis sed nihil non dolore ratione doloremque voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eum sint placeat, cum a repellendus eligendi officiis laboriosam voluptatibus fugiat ducimus repellat ullam perspiciatis dignissimos qui tenetur aperiam commodi vero.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit sed quaerat tempora fugit ipsum, enim mollitia eos! Sunt cupiditate debitis dolorum vitae deserunt velit id modi recusandae aliquid illo.</p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        div#pai {
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-content: space-between;
+            flex-wrap: nowrap;
+            grid-column: repeat(5, 100px);
+        }
+
+        div#filho1 {
+            width: 30%;
+            height: 30%;
+            background-color: rgb(245, 6, 6);
+            margin: 20px;
+         order: 0;
+         flex-shrink: 1;
+         flex-basis: 400px;
+         grid-template-columns: 1 / 4;
+        }
+        div#filho2 {
+            width: 30%;
+            height: 30%;
+            background-color: rgb(47, 0, 255);
+            margin: 20px;
+            order: 1;
+            flex-shrink: 5;
+            flex-basis: 400px;
+         
+        }
+        div#filho3 {
+            width: 30%;
+            height: 30%;
+            background-color: rgb(9, 255, 0);
+            margin: 20px;
+            flex-shrink: 100;
+            flex-basis: 400px;
+        }
+/*rafael2006!2006 */
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <div id="filho1">            <h1>numero 1</h1>
+        </div>
+        <div id="filho2"><h1>numero 2</h1></div>
+        <div id="filho3"><h1>numero 3</h1></div>
+    </div>
+</body>
+</html>

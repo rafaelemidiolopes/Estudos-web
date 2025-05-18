@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu Site</h1>
+        <span class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Produtos</a> </li>
+                <li><a href="#">Sua Conta</a> </li>
+                <li><a href="#">Novidades</a> </li>
+                <li><a href="#">Fale Conosco</a> </li>
+            </ul>
+        </menu>
+
+    </header>
+    <main>
+        <article>
+            <h2>Menu responsivo</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi sunt minima modi voluptatum! Architecto itaque velit repellat rerum voluptas, sapiente obcaecati quibusdam ipsa minus corporis, ducimus delectus natus eveniet non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit voluptates facilis laborum, aut at fugit porro quas maxime quod, ipsa quibusdam, quo assumenda ea blanditiis quaerat? Nulla, distinctio velit.</p>
+
+        </article>
+    </main>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }
+            else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else { itens.style.display = 'block' }
+        }
+
+    </script>
+</body>
+</html>

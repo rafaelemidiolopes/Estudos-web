@@ -1,0 +1,29 @@
+
+{
+   "a": "ss",
+    "jogos":{
+      "gta sa": {
+         "atalho" :"atalho",
+         "sons" :"rádio e sons do ambiente etc...",
+         "gráficos" : { 
+           "luz": "Luzes",
+            "mod" :"mods de gráfico"
+
+
+
+         },
+         "imagens" :"img"
+
+      }
+    }
+    ,"mais jogos": [{
+      "gta 5": "qualquer coisa",
+      "Detroid become human":  {
+         "imagens": "seiláoq.png"
+      }
+    }]
+      
+    
+ }
+
+ 

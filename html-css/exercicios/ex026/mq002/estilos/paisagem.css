@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/*tela paisagem*/
+body {
+    background: url(../imagens/cev-landscape.jpg) no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+}

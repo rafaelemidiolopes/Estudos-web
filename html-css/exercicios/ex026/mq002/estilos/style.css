@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*all todas midias*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    width: 100vw;
+    background-color: #233eff;
+    
+    height: 100vh;
+}
+h1 {
+    color: white;
+    text-shadow: 3px 3px 0px #1526a7;
+    padding: 10px;
+
+}

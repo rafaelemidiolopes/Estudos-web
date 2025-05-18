@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/*tela retrato*/
+    body {
+        background: url(../imagens/cev-portrait.jpg) center bottom no-repeat;
+        background-size: contain;
+    }
